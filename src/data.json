@@ -1,0 +1,58 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "word": "bat",
+      "url": "/src/assets/bat.png",
+      "misspellings": ["bot", "bit", "but", "bet", "dat", "det", "tab", "bad"]
+    },
+    {
+      "id": 2,
+      "word": "dog",
+      "url": "/src/assets/dog.png",
+      "misspellings": ["doj", "dig", "dag", "dug", "deg", "bog", "big", "god"]
+    },
+    {
+      "id": 3,
+      "word": "cat",
+      "url": "/src/assets/cat.png",
+      "misspellings": ["cot", "cit", "cut", "cet", "sat", "car", "tac", "cad"]
+    },
+    {
+      "id": 4,
+      "word": "cow",
+      "url": "/src/assets/cow.png",
+      "misspellings": ["caw", "cew", "ciw", "cuw", "cou", "kow", "kou", "woc"]
+    },
+    {
+      "id": 5,
+      "word": "fox",
+      "url": "/src/assets/fox.png",
+      "misspellings": ["fax", "fex", "fix", "fux", "foks", "focs", "xof", "phox"]
+    },
+    {
+      "id": 6,
+      "word": "fish",
+      "url": "/src/assets/fish.png",
+      "misspellings": ["fash", "fosh", "fesh", "fush", "fich", "fith", "fiss", "fhis"]
+    },
+    {
+      "id": 7,
+      "word": "car",
+      "url": "/src/assets/car.png",
+      "misspellings": ["cer", "cir", "cor", "cur", "kar", "kare", "kor", "rac"]
+    },
+    {
+      "id": 8,
+      "word": "bus",
+      "url": "/src/assets/bus.png",
+      "misspellings": ["bas", "bes", "bos", "bis", "dus", "dis", "sub", "buse"]
+    },
+    {
+      "id": 9,
+      "word": "lion",
+      "url": "/src/assets/lion.png",
+      "misspellings": ["rion", "lyon", "lain", "loin", "niol", "lyn", "lien", "line"]
+    }
+  ]
+}
