@@ -1,11 +1,63 @@
-# Vue 3 + Typescript + Vite
+# Spelling Game
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple spelling game created for my 3 year old son
+<table align="center">
+  <thead>
+    <tr>
+      <th colspan="2">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Languages</td>
+      <td>
+        <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-000?&logo=typescript" />
+      </td>
+    </tr>
+    <tr>
+      <td>Front-End</td>
+      <td>
+        <img alt="Vue" src="https://img.shields.io/badge/-Vue%203.0-000?logo=vue.js" />
+        <img alt="Vite" src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+        <img alt="HTML" src="https://img.shields.io/badge/-HTML-000?logo=html5" />
+        <img alt="CSS" src="https://img.shields.io/badge/-CSS-000?logo=css3" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-## Recommended IDE Setup
+## Project Status
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+The first iteration of the game is finished and playable all the way through. By clicking on "Go", the player gets to choose which of the nine words to start with. From there, the order of words to spell is randomized. With each correct guess the player is taken to the next spelling word and is given five points. Each wrong guess subtracts one point. At the end of the game (i.e. when a player has correctly spelled all nine words), the player is shown the GameOver component which shows the final score. 
 
-## Type Support For `.vue` Imports in TS
+All data is imported from `src/data.json`, so new words are simple to add.
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+### Next Steps
+
+- Options to limit the number of available spelling options from nine to six or three
+
+- Additional words corresponding to different difficulty levels
+
+- User feedback for correct answers
+
+- Hosting so the app doesn't need to be run locally
+
+
+## Instillation and setup instructions
+Fork, clone, and then
+
+- To install dependancies:
+
+    `npm install`
+
+- To compile the Vue SPA using Vite:
+
+    `npm run dev`
+
+
+## Reflection
+
+Stay tuned!
+
+
+
