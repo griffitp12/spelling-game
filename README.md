@@ -1,6 +1,6 @@
 # Spelling Game
 
-A simple spelling game created for my 3 year old son
+A simple spelling game created for my 3 year old son with Vue 3.0
 <table align="center">
   <thead>
     <tr>
