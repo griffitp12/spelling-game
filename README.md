@@ -32,6 +32,9 @@ The first iteration of the game is finished and playable all the way through. By
 
 All data is imported from `src/data.json`, so new words are simple to add.
 
+![Game Image](src/assets/game-example.png)
+![GameOver Image](src/assets/gameover-example.png)
+
 ### Next Steps
 
 - Options to limit the number of available spelling options from nine to six or three
