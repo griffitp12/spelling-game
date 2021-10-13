@@ -35,16 +35,6 @@ All data is imported from `src/data.json`, so new words are simple to add.
 ![Game Image](src/assets/game-example.png)
 ![GameOver Image](src/assets/gameover-example.png)
 
-### Next Steps
-
-- Options to limit the number of available spelling options from nine to six or three
-
-- Additional words corresponding to different difficulty levels
-
-- User feedback for correct answers
-
-- Hosting so the app doesn't need to be run locally
-
 
 ## Instillation and setup instructions
 Fork, clone, and then
